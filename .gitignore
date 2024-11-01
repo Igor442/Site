@@ -1,0 +1,44 @@
+# Ignorar arquivos e diretórios do Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar arquivos de log
+logs/
+*.log
+logs/**/*.log
+
+# Ignorar arquivos e diretórios do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar variáveis de ambiente e configurações
+.env
+.env.local
+.env.*.local
+
+# Ignorar cache de pacotes e build de front-end
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+
+# Ignorar cache de pacotes e build de back-end
+backend/node_modules/
+backend/build/
+backend/dist/
+
+# Ignorar arquivos de deploy do Vercel
+.vercel/
+vercel.json
+
+# Ignorar arquivos de configuração do editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.swn
+
+# Ignorar outros arquivos e diretórios
+coverage/
